@@ -660,7 +660,7 @@
 	.content-billbord {
 		padding-top: 95px;
 		padding-bottom: 30px;
-		min-height: calc(100vh - 60px);
+		min-height: calc(100vh - 95px);
 		display: flex;
 		flex-direction: column;
 	}
@@ -1029,6 +1029,7 @@
 	}
 	.route {
 		font-size: 16px;
+		max-width: 350px;
 	}
 	.tester__bottom {
 		padding-left: 0;
