@@ -1864,6 +1864,6 @@ border-top: 1px solid #D9D9D9;
 	opacity: 0;
 }
 .sandwich.active .sw-footer {
-	top: 5px;
+	top: 6px;
 	transform: rotate(-45deg); 
 }
