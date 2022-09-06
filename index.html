@@ -18,16 +18,27 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
 	<div class="wrapper">
 
-		<header class="header">
+		<div class="fixed-button">
+			<a href="#" class="btn-fixed"><img src="img/home.svg" alt="alt"></a>
+			<a href="#" class="btn-fixed"><img src="img/call.svg" alt="alt"></a>
+			<a href="#" class="btn-fixed"><img src="img/telegram.svg" alt="alt"></a>
+		</div>
+
+		<header class="header default">
 			<div class="container">
 				<div class="header__wrap">
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
 					<a href="#" class="logo">
 						<span>Комплексная ароматизация помещений</span>
 						<img src="img/logo.svg" alt="alt">
@@ -49,20 +60,36 @@
 					</div>
 				</div>
 			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Сферы бизнеса</a></li>
+					<li><a href="#">Клиентам</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="location">Москва, ул. 8-я Текстильщиков, 11с2</div>
+				<div class="line-contacts">
+					<a href="#" class="btn-social"><img src="img/tg.svg" alt="alt"></a>
+					<a href="tel:+388003337692" class="phone-main">8 800 333-76-92</a>
+				</div>
+			</div>
 		</header>
 
 		<section class="billbord">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-6">
-						<h1 class="title-billbord"><strong><span>Увеличим прибыль вашего бизнеса</span> на 10-30%</strong> за счет приятных ароматов, стимулирующих продажи </h1>
-						<div class="billbord__middle">
-							<div class="descr-billbord">Ресторанный бизнес, общепиты <br>Офисы, бизнес центры <br>Торговые центры и розничные магазины <br>Индустрия красоты, здоровья и спорта <br>Гостиничный и туристический бизнес </div>
-							<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-btn fancybox fancybox.iframe"><i class="fas fa-play"></i></a>
-						</div>
-						<div class="billbord__buttons">
-							<a href="#" class="btn-main btn-main_page">Рассчитать стоимость ароматизации помещения</a>
-							<a href="#" class="btn-main">Получить бесплатный образец аромата с доставкой</a>
+					<div class="col-xl-6 col-lg-9">
+						<div class="content-billbord">
+							<h1 class="title-billbord"><strong><span>Увеличим прибыль вашего бизнеса</span> на 10-30%</strong> за счет приятных ароматов, стимулирующих продажи </h1>
+							<div class="billbord__middle">
+								<div class="descr-billbord">Ресторанный бизнес, общепиты <br>Офисы, бизнес центры <br>Торговые центры и розничные магазины <br>Индустрия красоты, здоровья и спорта <br>Гостиничный и туристический бизнес </div>
+								<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-btn fancybox fancybox.iframe"><i class="fas fa-play"></i></a>
+							</div>
+							<div class="billbord__buttons">
+								<a href="#" class="btn-main btn-main_page">Рассчитать стоимость ароматизации помещения</a>
+								<a href="#" class="btn-main">Получить бесплатный образец аромата с доставкой</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -77,6 +104,9 @@
 						<div class="item-profit__image">
 							<img src="img/profit1.png" alt="alt">
 						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit1.svg" alt="alt">
+						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Устранение плохих запахов</div>
 							<p>Абсорбенты в составе ароматизаторов нейтрализуют все неприятные запахи, негативно влияющие на клиентов, что особенно актуально для медицинских учреждений, кафе, фитнес центров</p>
@@ -85,6 +115,9 @@
 					<div class="item-profit item-profit_2">
 						<div class="item-profit__image">
 							<img src="img/profit2.png" alt="alt">
+						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit2.svg" alt="alt">
 						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Усиление аппетита</div>
@@ -95,6 +128,9 @@
 						<div class="item-profit__image">
 							<img src="img/profit3.png" alt="alt">
 						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit3.svg" alt="alt">
+						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Восприятие качества</div>
 							<p>Запахи благородных пород дерева улучшают восприятие качества товара, продукт воспринимается более ценным</p>
@@ -103,6 +139,9 @@
 					<div class="item-profit item-profit_4">
 						<div class="item-profit__image">
 							<img src="img/profit4.png" alt="alt">
+						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit4.svg" alt="alt">
 						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Увеличение числа импульсных покупок</div>
@@ -113,6 +152,9 @@
 						<div class="item-profit__image">
 							<img src="img/profit5.png" alt="alt">
 						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit5.svg" alt="alt">
+						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Лояльность клиентов</div>
 							<p>В приятной атмосфере клиенты проводят в среднем на 28% больше времени. Количество повторных визитов возрастает на 19%</p>
@@ -121,6 +163,9 @@
 					<div class="item-profit item-profit_6">
 						<div class="item-profit__image">
 							<img src="img/profit6.png" alt="alt">
+						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit6.svg" alt="alt">
 						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Улучшение концентрации</div>
@@ -131,6 +176,9 @@
 						<div class="item-profit__image">
 							<img src="img/profit7.png" alt="alt">
 						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit7.svg" alt="alt">
+						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Повышение <br>узнаваемости</div>
 							<p>Крупные сети практикуют использование фирменного запаха и постоянные клиенты могут не заметить вывеску любимого магазина, но учуять его по запаху</p>
@@ -139,6 +187,9 @@
 					<div class="item-profit item-profit_8">
 						<div class="item-profit__image">
 							<img src="img/profit8.png" alt="alt">
+						</div>
+						<div class="item-profit__icon">
+							<img src="img/ic_profit8.svg" alt="alt">
 						</div>
 						<div class="item-profit__content">
 							<div class="item-profit__title">Привлечение женщин</div>
@@ -161,7 +212,7 @@
 							<li>Установим и настроим оборудование </li>
 						</ul>
 					</div>
-					<div class="col-lg-4 offset-lg-2">
+					<div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1">
 						<div class="block-form">
 							<div class="title-form">Заполните форму <span>и мы свяжемся с вами</span></div>
 							<form>
@@ -267,6 +318,48 @@
 						</div>
 					</div>
 				</div>
+				<ul class="slider-progress">
+					<li>
+						<div class="item-progress">
+							<div class="item-progress__icon">
+								<div class="progress-bar" data-percent="50" data-duration="1000" data-color="#DDE7FF,#8CBD48"></div>
+							</div>
+							<div class="item-progress__title">Ошибки персонала</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-progress">
+							<div class="item-progress__icon">
+								<div class="progress-bar" data-percent="100" data-duration="1000" data-color="#DDE7FF,#789F42"></div>
+							</div>
+							<div class="item-progress__title">Ошибки персонала</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-progress">
+							<div class="item-progress__icon">
+								<div class="progress-bar" data-percent="24" data-duration="1000" data-color="#DDE7FF,#FF708B"></div>
+							</div>
+							<div class="item-progress__title">Ошибки персонала</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-progress">
+							<div class="item-progress__icon">
+								<div class="progress-bar" data-percent="38" data-duration="1000" data-color="#DDE7FF,#8676FF"></div>
+							</div>
+							<div class="item-progress__title">Ошибки персонала</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-progress">
+							<div class="item-progress__icon">
+								<div class="progress-bar" data-percent="60" data-duration="1000" data-color="#DDE7FF,#6190E8"></div>
+							</div>
+							<div class="item-progress__title">Ошибки персонала</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</section>
 
@@ -293,7 +386,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -301,6 +394,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -315,7 +412,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -323,6 +420,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -337,7 +438,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -345,6 +446,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -359,7 +464,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -367,6 +472,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -381,7 +490,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -389,6 +498,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -403,7 +516,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -411,6 +524,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -425,7 +542,7 @@
 									<li>Устраняет неприятные запахи</li>
 									<li>Выстраивает ассоциативный ряд между ароматом и конкретным заведением</li>
 								</ul>
-								<div class="services-buttons">
+								<div class="services-buttons hidden-mob">
 									<a href="#" class="btn-main">Рассчитать стоимость</a>
 									<a href="#" class="link-main">Узнать больше</a>
 								</div>
@@ -433,6 +550,10 @@
 							<div class="col-lg-8">
 								<div class="image-service">
 									<img src="img/service1.jpg" alt="alt">
+								</div>
+								<div class="services-buttons show-mob">
+									<a href="#" class="btn-main">Рассчитать стоимость</a>
+									<a href="#" class="link-main">Узнать больше</a>
 								</div>
 							</div>
 						</div>
@@ -841,117 +962,135 @@
 						</ul>
 					</div>
 				</div>
+				<div class="bottom-button show-mob">
+					<a href="#" class="link-main">Перейти в каталог ароматов</a>
+				</div>
 			</div>
 		</section>
 
 		<section class="tester">
-			<div class="container">
-				<div class="row row_tester">
-					<div class="col-lg-8 tester__left">
-						<h2 class="title-section">Получите пробники ароматов <span>БЕСПЛАТНО</span></h2>
-						<ul class="list-page">
-							<li>Оставьте заявку на сайте или позвоните на бесплатный номер по РФ 8 (800) 550-07-29</li>
-							<li>Получите бесплатную  консультацию с подбором ароматов для вашего бизнеса</li>
-							<li>Мы отправим вам образцы ароматов бесплатно в течение дня почтой или экспресс-доставкой ТК СДЭК или DPD</li>
-						</ul>
-						<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-btn fancybox fancybox.iframe"><i class="fas fa-play"></i></a>
-					</div>
-					<div class="col-lg-4">
-						<div class="block-form">
-							<div class="title-form">Заполните форму <span>и мы свяжемся с вами</span></div>
-							<form>
-								<div class="item-form">
-									<input type="text" placeholder="Имя" required="required">
-								</div>
-								<div class="item-form">
-									<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
-								</div>
-								<button class="btn-main">Получить пробник бесплатно</button>
-								<div class="checkbox-wrap">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox" required="required" checked="checked" />
-											<span>Согласие на обработку персональных данных</span>
-										</label>
-									</div>
-								</div>
-							</form>
-						</div>
-						<div class="image-conusult">
-							<img src="img/image_consult2.png" alt="alt">
-						</div>
-					</div>
-				</div>
-				<h2 class="title-section">А если вы в Москве</h2>
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="tester__left">
-							<div class="title-middle">зовите нас в гости</div>
-							<ul class="list-simple">
-								<li>Проведём бесплатную демонстрацию приборов и ароматов, когда вам удобно</li>
-								<li>Подробно расскажем о тонкостях ароматизации в вашей сфере</li>
-								<li>Изучим особенности помещения</li>
-								<li>Подберем идеальный аромат и оптимальную модель оборудования</li>
+			<div class="top-tester">
+				<div class="container">
+					<div class="row row_tester">
+						<div class="col-xl-8 col-lg-7 tester__left">
+							<h2 class="title-section">Получите пробники ароматов <span>БЕСПЛАТНО</span></h2>
+							<ul class="list-page">
+								<li>Оставьте заявку на сайте или позвоните на бесплатный номер по РФ 8 (800) 550-07-29</li>
+								<li>Получите бесплатную  консультацию с подбором ароматов для вашего бизнеса</li>
+								<li>Мы отправим вам образцы ароматов бесплатно в течение дня почтой или экспресс-доставкой ТК СДЭК или DPD</li>
 							</ul>
+							<a href="https://www.youtube.com/embed/E8d_JvMpoY4" class="video-btn fancybox fancybox.iframe"><i class="fas fa-play"></i></a>
 						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="middle-tester">
-							<img src="img/middle_tester.png" alt="alt">
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="tester__right">
-							<div class="title-middle">или приезжайте к нам в офис</div>
-							<div class="route">
-								<div class="route__image">
-									<img src="img/location.jpg" alt="alt">
-								</div>
-								<div class="route__content">
-									<p>на 8-ую улицу Текстильщиков, 11 </p>
-									<a href="#" class="link-main">проложить маршрут</a>
-								</div>
+						<div class="col-xl-4 col-lg-5">
+							<div class="image-mobile-tester">
+								<img src="img/tester_leaves.png" alt="alt">
 							</div>
-							<ul class="list-simple">
-								<li>Проведем демонстрацию приборов и ароматов</li>
-								<li>Подробно расскажем обо всех нюансах профессиональной ароматизации</li>
-							</ul>
+							<div class="mobile-tester-right">
+								<img src="img/mob_tester1.png" alt="alt">
+							</div>
+							<div class="mobile-tester-left">
+								<img src="img/mob_tester2.png" alt="alt">
+							</div>
+							<div class="block-form">
+								<div class="title-form">Заполните форму <span>и мы свяжемся с вами</span></div>
+								<form>
+									<div class="item-form">
+										<input type="text" placeholder="Имя" required="required">
+									</div>
+									<div class="item-form">
+										<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+									</div>
+									<button class="btn-main">Получить пробник бесплатно</button>
+									<div class="checkbox-wrap">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" required="required" checked="checked" />
+												<span>Согласие на обработку персональных данных</span>
+											</label>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="image-conusult">
+								<img src="img/image_consult2.png" alt="alt">
+							</div>
+						</div>
+					</div>
+					<h2 class="title-section title-section_tester">А если вы в Москве</h2>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="tester__left">
+								<div class="title-middle">зовите нас в гости</div>
+								<ul class="list-simple">
+									<li>Проведём бесплатную демонстрацию приборов и ароматов, когда вам удобно</li>
+									<li>Подробно расскажем о тонкостях ароматизации в вашей сфере</li>
+									<li>Изучим особенности помещения</li>
+									<li>Подберем идеальный аромат и оптимальную модель оборудования</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="middle-tester">
+								<img src="img/middle_tester.png" alt="alt">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="tester__right">
+								<div class="title-middle">или приезжайте к нам в офис</div>
+								<div class="route">
+									<div class="route__image">
+										<img src="img/location.jpg" alt="alt">
+									</div>
+									<div class="route__content">
+										<p>на 8-ую улицу Текстильщиков, 11 </p>
+										<a href="#" class="link-main">проложить маршрут</a>
+									</div>
+								</div>
+								<ul class="list-simple">
+									<li>Проведем демонстрацию приборов и ароматов</li>
+									<li>Подробно расскажем обо всех нюансах профессиональной ароматизации</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row tester__bottom">
-					<div class="col-lg-10 offset-lg-2">
-						<div class="title-section">Избавим помещение <br>от неприятных запахов</div>
-						<div class="row row_items">
-							<div class="col-lg-3">
-								<div class="item-tester">
-									<div class="item-tester__icon">
-										<img src="img/ic_tester1.svg" alt="alt">
+			</div>
+			<div class="bottom-tester">
+				<div class="container">
+					<div class="row tester__bottom">
+						<div class="col-xl-10 offset-xl-2">
+							<div class="title-section">Избавим помещение <br>от неприятных запахов</div>
+							<div class="row row_items">
+								<div class="col-lg-3">
+									<div class="item-tester">
+										<div class="item-tester__icon">
+											<img src="img/ic_tester1.svg" alt="alt">
+										</div>
+										<p>Любые неприятные запахи вызывают у клиентов негативную реакцию</p>
 									</div>
-									<p>Любые неприятные запахи вызывают у клиентов негативную реакцию</p>
 								</div>
-							</div>
-							<div class="col-lg-3">
-								<div class="item-tester">
-									<div class="item-tester__icon">
-										<img src="img/ic_tester2.svg" alt="alt">
+								<div class="col-lg-3">
+									<div class="item-tester">
+										<div class="item-tester__icon">
+											<img src="img/ic_tester2.svg" alt="alt">
+										</div>
+										<p>Мы не просто маскируем их приятным ароматом, а полностью устраняем из воздуха</p>
 									</div>
-									<p>Мы не просто маскируем их приятным ароматом, а полностью устраняем из воздуха</p>
 								</div>
-							</div>
-							<div class="col-lg-5">
-								<div class="item-tester">
-									<div class="item-tester__icon">
-										<img src="img/ic_tester3.svg" alt="alt">
+								<div class="col-lg-5">
+									<div class="item-tester">
+										<div class="item-tester__icon">
+											<img src="img/ic_tester3.svg" alt="alt">
+										</div>
+										<p>Для этого в наших аромамашинах используется специальный абсорбент, нейтрализующий запахи и их отрицательное воздействие на клиентов</p>
 									</div>
-									<p>Для этого в наших аромамашинах используется специальный абсорбент, нейтрализующий запахи и их отрицательное воздействие на клиентов</p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="tester__button">
-					<a href="#" class="btn-main">нам это нужно</a>
+					<div class="tester__button">
+						<a href="#" class="btn-main">нам это нужно</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -959,7 +1098,7 @@
 		<section class="selection">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8">
+					<div class="col-xl-8 col-lg-7">
 						<h2 class="title-section">Почему <span>арома-машина лучше</span> аэрозолей и диффузоров</h2>
 						<ul class="list-page">
 							<li>Размер капель <strong>в 50 раз меньше капли аэрозоли,</strong> поэтому ароматизация помещений происходит равномерно</li>
@@ -968,7 +1107,7 @@
 							<li>Площадь <strong>охвата в 3-5 раз <br>выше,</strong> чем после аэрозольных распылителей</li>
 						</ul>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-xl-4 col-lg-5">
 						<div class="block-form">
 							<div class="title-form">on-line подбор арома-машины</div>
 							<form>
@@ -1351,6 +1490,7 @@
 
 		<section class="reviews">
 			<div class="container">
+				<h2 class="title-section show-mob">Реальные <span>отзывы</span> наших клиентов</h2>
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="reviews-block">
@@ -1577,42 +1717,42 @@
 						<div class="tab-container-sidebar">
 							<div class="tab-pane-sidebar" id="tab_process1">
 								<div class="row row_steps">
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">01</div>
 											<div class="item-step__title">Заявка</div>
 											<p>Оставьте на сайте или <br>позвоните по номеру <a href="tel:+388002225804"><strong>8 (800) 222-58-04</strong></a></p>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">02</div>
 											<div class="item-step__title">Консультация</div>
 											<p>Наш аромадизайнер подробно расскажет обо всех тонкостях ароматизации в Вашей сфере деятельности</p>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">03</div>
 											<div class="item-step__title">Выезд специалиста</div>
 											<p>Бесплатно привезем образцы ароматов и запустим прибор в тестовом режиме</p>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">04</div>
 											<div class="item-step__title">Выбор прибора <br>и аромата</div>
 											<p>Подберем идеально подходящий аромат и модель арома-машины</p>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">05</div>
 											<div class="item-step__title">Доставка, установка, настройка</div>
 											<p>Доставим, установим, настроим арома-машину и научим ею пользоваться</p>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-6">
+									<div class="col-lg-4">
 										<div class="item-step">
 											<div class="item-step__number">06</div>
 											<div class="item-step__title">Довольные <br>клиенты</div>
@@ -1636,7 +1776,7 @@
 					<li>Установим и настроим оборудование </li>
 				</ul>
 				<div class="row">
-					<div class="col-xl-8">
+					<div class="col-lg-8">
 						<form>
 							<div class="row">
 								<div class="col-lg-4">
@@ -1680,7 +1820,7 @@
 						</a>
 					</div>
 					<div class="col-lg">
-						<div class="footer__title">Каталог</div>
+						<div class="footer__title footer__title_dropdown">Каталог <i class="far fa-chevron-down"></i></div>
 						<div class="footer__content">
 							<ul class="footer__nav">
 								<li><a href="#">Аромамашины</a></li>
@@ -1691,7 +1831,7 @@
 						</div>
 					</div>
 					<div class="col-lg">
-						<div class="footer__title">Сферы бизнеса</div>
+						<div class="footer__title footer__title_dropdown">Сферы бизнеса <i class="far fa-chevron-down"></i></div>
 						<div class="footer__content">
 							<ul class="footer__nav">
 								<li><a href="#">Для ресторанов</a></li>
@@ -1756,7 +1896,7 @@
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/progressbar/jQuery-plugin-progressbar.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.1"></script>
+<script src="js/common.js?ver=1.2"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
