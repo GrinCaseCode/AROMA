@@ -1733,6 +1733,9 @@
 	.questions .block-form .checkbox {
 		margin-top: 25px;
 	}
+	.row_catalog .item-catalog__image {
+    height: 250px;
+}
 }
 
 /* Small Devices, Tablets */

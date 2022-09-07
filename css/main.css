@@ -2393,3 +2393,12 @@ border-radius: 15px;
 .row_team > div {
 	margin-bottom:35px;
 }
+.jq-selectbox__dropdown {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 6px;
+}
+.jq-selectbox__dropdown li {
+	padding: 5px 17px;
+	cursor: pointer;
+}
