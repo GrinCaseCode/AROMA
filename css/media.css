@@ -1893,34 +1893,34 @@
 		padding-bottom: 50px;
 	}
 	.history .title-section {
-    padding-bottom: 25px;
-}
-.team-main__bottom {
-	justify-content: flex-start;
-}
-.item-history::before {
-display: none;
-}
-.billbord_page  .billbord__middle {
-    margin-bottom: 0;
-    display: block;
-}
-.billbord_page .video-btn {
-	display: none;
-}
-.billbord_page  .content-billbord {
-    min-height: calc(100vh - 165px);
-    }
-    .billbord_about .list-page {
-    max-width: 300px;
-}
+		padding-bottom: 25px;
+	}
+	.team-main__bottom {
+		justify-content: flex-start;
+	}
+	.item-history::before {
+		display: none;
+	}
+	.billbord_page  .billbord__middle {
+		margin-bottom: 0;
+		display: block;
+	}
+	.billbord_page .video-btn {
+		display: none;
+	}
+	.billbord_page  .content-billbord {
+		min-height: calc(100vh - 165px);
+	}
+	.billbord_about .list-page {
+		max-width: 195px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.item-team__image {
-    height: 355px;
-}
+	.item-team__image {
+		height: 355px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1938,8 +1938,8 @@ display: none;
 		padding: 0 7px;
 	}
 	.item-team__image {
-    height: 295px;
-}
+		height: 295px;
+	}
 }
 
 /* Custom, iPhone Retina */
