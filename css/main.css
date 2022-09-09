@@ -2402,3 +2402,123 @@ border-radius: 15px;
 	padding: 5px 17px;
 	cursor: pointer;
 }
+.about-video {
+	padding-top: 82px;
+	padding-bottom: 22px;
+}
+.about-block {
+	padding-left: 329px;
+	padding-right: 53px;
+	padding-top: 125px;
+	min-height: 522px;
+	margin-left: -245px;
+	background: rgba(184, 203, 252, 0.3);
+border-radius: 25px;
+}
+.row_about > div:first-child {
+	z-index: 2;
+}
+.row_about {
+	align-items: center;
+}
+.about-video .video-main__image {
+	height: 410px;
+}
+.about-block .title-section {
+	margin-bottom: 25px;
+}
+.about-video .text-big strong {
+	font-weight: 500;
+}
+.item-photo {
+	height: 410px;
+	margin-bottom: 35px;
+	border-radius: 15px;
+	display: block;
+}
+.item-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+border-radius: 15px;
+}
+.photos .title-section {
+	padding-bottom: 60px;
+}
+.clients.clients_page {
+	padding-top: 67px;
+	margin: 0;
+	background-image: none;
+	background: linear-gradient(180deg, #DDE7FF 0%, #B8CBFC 78.14%), #D9D9D9;
+}
+.clients.clients_page .title-section {
+	text-align: center;
+}
+.advantages_page::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	height: 510px;
+	width: 100%;
+	bottom: -200px;
+	left: 0;
+	z-index: -1;
+	background: linear-gradient(360deg, #FFFFFF 37.44%, rgba(255, 255, 255, 0.55303) 69.19%, rgba(255, 255, 255, 0) 100%);
+}
+.image-sertificat {
+	padding: 30px;
+	background-image: url(../img/bg_sertificat.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	display: inline-block;
+}
+.image-sertificat img {
+	max-width: 100%;
+	height: auto;
+}
+.sertificats {
+	padding-top: 48px;
+	padding-bottom: 95px;
+}
+.sertificats .container > .title-section {
+	padding-bottom: 52px;
+	text-align: center;
+}
+.team .descr-section {
+	padding-bottom: 44px;
+}
+.billbord_restaurant {
+	padding-top: 97px;
+	background-image: url(../img/billbord_restaurant1.jpg);
+}
+.billbord_restaurant .title-billbord {
+	max-width: 100%;
+}
+.billbord_restaurant .billbord__buttons,
+.billbord_restaurant .billbord__middle {
+	max-width: 700px;
+}
+.portfolio-page {
+	padding-top: 50px;
+	padding-bottom: 64px;
+}
+.portfolio-page .title-section {
+	max-width: 705px;
+	margin-bottom: 47px;
+}
+.item-portfolio .title-small {
+	padding-bottom: 21px;
+	margin-bottom: 21px;
+	border-bottom: 1px solid #DDE7FF;
+}
+.slider-portfolio .slick-prev {
+    left: -5px;
+}
+.slider-portfolio .slick-next {
+    right: -5px;
+}
+.consultation_page .descr-big {
+	margin-bottom: 24px;
+}

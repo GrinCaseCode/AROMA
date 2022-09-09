@@ -80,7 +80,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 	$('.slider-portfolio').slick({
-		arrows: false,
+		arrows: true,
 		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
@@ -92,6 +92,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 992,
 			settings: {
+				arrows: false,
 				slidesToShow: 1,
 				dots: true,
 			}
