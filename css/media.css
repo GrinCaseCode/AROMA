@@ -1901,6 +1901,16 @@
 .item-history::before {
 display: none;
 }
+.billbord_page  .billbord__middle {
+    margin-bottom: 0;
+    display: block;
+}
+.billbord_page .video-btn {
+	display: none;
+}
+.billbord_page  .content-billbord {
+    min-height: calc(100vh - 165px);
+    }
 }
 
 /* Small Devices, Tablets */
