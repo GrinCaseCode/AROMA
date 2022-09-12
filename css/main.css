@@ -2799,3 +2799,6 @@ toggle {  0% {
 .about-text .title-section {
 	margin-bottom: 20px;
 }
+.billbord_restaurant .list-page li::before {
+	background-image: url(../img/check-circle2.svg);
+}
