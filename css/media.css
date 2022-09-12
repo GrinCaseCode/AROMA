@@ -189,6 +189,32 @@
 		font-size: 17px;
 		line-height: 28px;
 	}
+	.billbord_restaurant {
+		padding-top: 90px;
+	}
+	.item-portfolio__image {
+		height: 400px;
+	}
+	.installation_page .item-installation_2 .item-installation__image {
+		margin-left: -76px;
+	}
+	.installation_page .item-installation_2 {
+		margin-left: 205px;
+	}
+	.item-obtain__title {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.reviews-main {
+		padding-top: 50px;
+	}
+	.item-review {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.about-text {
+		max-height: 450px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.menu {
@@ -465,6 +491,33 @@
 	}
 	.about-block {
 		min-height: 470px;
+	}
+	.catalog_page .text-big {
+		margin-bottom: 35px;
+	}
+	.installation_page .item-installation_2 .item-installation__image {
+		margin-left: 0;
+	}
+	.installation_page .item-installation_2 {
+		margin-left: 165px;
+	}
+	.item-obtain__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.item-obtain {
+		padding: 15px;
+		padding-bottom: 50px;
+	}
+	.item-review__title {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.item-review__bottom {
+		padding-top: 30px;
+	}
+	.about-text {
+		max-height: 385px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -812,6 +865,9 @@
 	}
 	.about-video .video-main__image {
 		height: 310px;
+	}
+	.about-text {
+		max-height: 279px;
 	}
 }
 
@@ -1914,8 +1970,92 @@
 	.billbord_about .list-page {
 		max-width: 195px;
 	}
+	.billbord_restaurant {
+		background-image: url(../img/billbord_restaurant1.jpg);
+		background-position: 65% 50%;
+	}
+	.billbord_restaurant .title-billbord br {
+		display: none;	
+	}
+	.item-portfolio .title-small {
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.details .title-section {
+		padding-bottom: 15px;
+	}
+	.item-detail:nth-child(even) .details-content,
+	.details-content {
+		padding: 20px;
+		margin: 0;
+		margin-bottom: 20px;
+		min-height: initial;
+	}
+	.details-content__title {
+		font-size: 20px;
+		line-height: 27px;
+		margin-bottom: 13px;
+	}
+	.details-content p {
+		margin-bottom: 15px;
+	}
+	.image-details {
+		height: 215px;
+	}
+	.item-detail {
+		margin-bottom: 25px;
+	}
+	.catalog_page .tabs li {
+		margin-right: 0;
+	}
+	.tester.tester_main {
+		padding-bottom: 20px;
+	}
+	.installation_page .item-installation_2 {
+		margin-left: 0;
+	}
+	.obtain {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		background-image: none;
+		background: linear-gradient(180deg, #DDE7FF 0%, #B8CBFC 78.14%), #D9D9D9;
+	}
+	.image-obtain {
+		display: none;
+	}
+	.item-review__date {
+		font-size: 11px;
+	}
+	.item-review__date::after {
+		margin-left: 10px;
+	}
+	.item-review__bottom {
+		padding-top: 15px;
+		text-align: left;
+	}
+	.item-review {
+		padding: 20px;
+		padding-bottom: 30px;
+	}
+	.reviews-main {
+		padding-bottom: 30px;
+	}
+	.reviews-main + .company {
+		padding-top: 30px;
+	}
+	.about-text {
+		margin-bottom: 30px;
+		max-height: 268px;
+	}
+	.about-page {
+		padding-bottom: 40px;
+	}
+	.item-obtain {
+		padding: 25px;
+		padding-bottom: 30px;
+	}
 }
-
+ 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.item-team__image {
@@ -2001,6 +2141,8 @@
 	.about {
 		background-size: 100% auto;
 	}
+	.obtain,
+	.tester.tester_main,
 	.billbord {
 		background-size: 100% 100%;
 	}
