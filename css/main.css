@@ -2802,3 +2802,6 @@ toggle {  0% {
 .billbord_restaurant .list-page li::before {
 	background-image: url(../img/check-circle2.svg);
 }
+.billbord_restaurant .list-page {
+	color: #B8CBFC;
+}
