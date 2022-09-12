@@ -2054,6 +2054,16 @@
 		padding: 25px;
 		padding-bottom: 30px;
 	}
+	.catalog_page .text-big {
+    margin-bottom: 20px;
+}
+.portfolio-page {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.portfolio-page .title-section {
+    margin-bottom: 25px;
+}
 }
  
 /* Small Devices, Tablets */
