@@ -4285,7 +4285,7 @@ border-radius: 6px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.consultation-section__form {
+.consultation-section__form { 
 	max-width: 850px;
 }
 .consultation-section__form .row {
