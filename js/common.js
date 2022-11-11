@@ -163,12 +163,6 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
-	var waypoint = new Waypoint({
-		element: $('.about'),
-		handler: function() {
-			$(".progress-bar").loading();
-		}
-	})
 
 	//кнопка sandwich
 	$(".sandwich").click(function() {
