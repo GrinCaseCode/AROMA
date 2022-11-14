@@ -16,7 +16,7 @@ $(document).ready(function() {
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 1,
-				arrows: false,
+				dots: true,
 			}
 		}
 		]
@@ -33,9 +33,16 @@ $(document).ready(function() {
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
 		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 1,
+				dots: true,
 				arrows: false,
 			}
 		}
@@ -53,10 +60,12 @@ $(document).ready(function() {
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
 		{
-			breakpoint: 992,
+			breakpoint: 1200,
 			settings: {
+				variableWidth: true,
+				centerMode: true,
 				slidesToShow: 1,
-				arrows: false,
+				initialSlide: 1,
 			}
 		}
 		]
@@ -72,6 +81,12 @@ $(document).ready(function() {
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
 		{
 			breakpoint: 992,
 			settings: {
@@ -113,10 +128,43 @@ $(document).ready(function() {
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
 		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 1,
 				arrows: false,
+			}
+		}
+		]
+	});
+
+	$('.slider-team').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 10,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 8,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				arrows: false,
+				slidesToShow: 1,
+				variableWidth: true
 			}
 		}
 		]
@@ -256,6 +304,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 6,
+			}
+		},
 		{
 			breakpoint: 992,
 			settings: {
