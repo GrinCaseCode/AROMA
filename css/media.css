@@ -382,6 +382,38 @@
 	.item-catalog__bottom {
 		padding-top: 23px;
 	}
+	.item-tag {
+		padding: 7px 14px;
+	}
+	.item-number {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.item-number__value {
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.item-number__value sup {
+		font-size: 16px;
+	}
+	.item-tag {
+		font-size: 13px;
+		line-height: 19px;
+		margin-right: 8px;
+		margin-top: 7px;
+		padding: 6px 9px;
+	}
+	.item-number {
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.item-number__value {
+		font-size: 30px;
+		line-height: 33px;
+	}
+	.item-number__value sup {
+		font-size: 15px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	.menu {
@@ -2929,6 +2961,79 @@
 	}
 	.row_catalog > div {
 		margin-bottom: 8px;
+	}
+	.wrapper-numbers {
+		flex-wrap: wrap;
+	}
+	.item-number {
+		width: 50%;
+		flex: none;
+	}
+	.item-number {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.wrapper_page .header {
+		background-color: #fff;
+	}
+	.item-number__value {
+		font-size: 27px;
+		line-height: 30px;
+	}
+	.item-number__value sup {
+		font-size: 13px;
+	}
+	.row_video-revies > div, .row_cases > div {
+		margin-top: 22px;
+	}
+	.unit-review {
+		padding: 20px 15px;
+	}
+	.portfolio-section .bottom-button {
+		padding-bottom: 35px;
+	}
+	.video-review__image {
+		height: 190px;
+	}
+	.row_video-revies + .bottom-button {
+		padding-bottom: 0;
+	}
+	.list-tags {
+		overflow: auto;
+		white-space: nowrap;
+		margin-bottom: 15px;
+		margin-right: -15px;
+		border: none;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.value-review {
+		margin-left: 12px;
+	}
+	.value-review img {
+		margin-right: 10px;
+	}
+	.value-review span {
+		font-size: 29px;
+		line-height: 29px;
+	}
+	.portfolio-section .head-reviews {
+		margin-bottom: 0;
+	}
+	.menu-mobile {
+		color: #2E4DA0;
+		background-color: #fff;
+	}
+	.menu ul a,
+	.menu a {
+		color: #2E4DA0;
+		border-color: #2E4DA0;
+	}
+	.menu-mobile .phone-main {
+		color: #2E4DA0;
+	}
+	.menu-mobile .btn-social img {
+		filter: invert(0.7) sepia(1) hue-rotate(169deg) saturate(3) brightness(1);
 	}
 }
 

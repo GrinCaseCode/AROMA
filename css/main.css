@@ -1434,8 +1434,8 @@ toggle {  0% {
 .slick-dots li button {
 	width: 10px;
 	height: 10px;
-background: #2E4DA0;
-border: 1px solid #2E4DA0;
+	background: #2E4DA0;
+	border: 1px solid #2E4DA0;
 	border-radius: 50%;
 	padding: 0;
 	transition: all 0.3s;
@@ -4243,7 +4243,7 @@ border: 1px solid #2E4DA0;
 	padding-bottom: 7px;
 	position: absolute;
 	background: #FFFFFF;
-border-radius: 6px;
+	border-radius: 6px;
 }
 .name-consult span {
 	font-size: 14px;
@@ -4263,7 +4263,7 @@ border-radius: 6px;
 .name-consult_2::after {
 	top: 100%;
 	left: 15px;
-		border: 5px transparent solid;
+	border: 5px transparent solid;
 	border-top: 5px solid #fff;
 }
 .name-consult_3::after {
@@ -4271,20 +4271,20 @@ border-radius: 6px;
 	left: auto;
 }
 .name-consult_1 {
-    top: 265px;
-    left: -181px;
+	top: 265px;
+	left: -181px;
 }
 .name-consult_2 {
-    top: 149px;
-    left: 78px;
-    padding-left: 15px;
-    padding-right: 15px;
+	top: 149px;
+	left: 78px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .name-consult_3 {
-    top: 114px;
-    left: 201px;
-    padding-left: 15px;
-    padding-right: 15px;
+	top: 114px;
+	left: 201px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .consultation-section__form { 
 	max-width: 850px;
@@ -4366,4 +4366,74 @@ border-radius: 6px;
 }
 .services_technical > div {
 	margin-bottom: 30px;
+}
+.portfolio-section {
+	padding-top: 23px;
+	padding-bottom: 58px;
+	background-color: #F8FAFF;
+}
+.head-page .title-section {
+	padding-bottom: 30px;
+	color: #000;
+}
+.wrapper-numbers {
+	display: flex;
+	justify-content: space-between;
+}
+.item-number__value {
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 7px;
+	font-weight: 700;
+	color: #88ABED;
+}
+.item-number p {
+	margin: 0;
+}
+.item-number {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.item-number__value sup {
+	font-size: 18px;
+	line-height: 0;
+}
+.list-tags {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item-tag {
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 8px 16px;
+	background: #DDE7FF;
+	border-radius: 6px;
+	transition: all 0.3s;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	vertical-align: middle;
+}
+.row_video-revies > div,
+.row_cases > div {
+	margin-top: 30px;
+}
+.portfolio-section .bottom-button {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+.row_reviews > div {
+	margin-top: 20px;
+}
+.row_video-revies + .bottom-button {
+	padding-top: 35px;
+	padding-bottom: 0;
 }
