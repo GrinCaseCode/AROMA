@@ -3154,6 +3154,7 @@ toggle {  0% {
 	width: 176px;
 	height: 86px;
 	padding: 12px;
+	background: #F2F4F8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
