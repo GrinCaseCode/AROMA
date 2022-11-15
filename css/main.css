@@ -877,8 +877,10 @@ toggle {  0% {
 	overflow: hidden;
 }
 .item-catalog .btn-main {
-	height: 46px;
-	padding: 0 25px;
+	font-size: 12px;
+	line-height: 17px;
+	padding: 0 14px;
+	height: 34px;
 	background: #F94E20;
 	box-shadow: none;
 }
@@ -1912,7 +1914,6 @@ toggle {  0% {
 	padding-bottom: 35px;
 }
 .item-form select {
-	visibility: hidden;
 	opacity: 0;
 }
 .item-form .jqselect {
@@ -4437,3 +4438,352 @@ toggle {  0% {
 	padding-top: 35px;
 	padding-bottom: 0;
 }   
+.title-form span {
+	font-size: 18px;
+	line-height: 26px;
+}
+.questions .title-section {
+	padding-bottom: 25px;
+	color: #000;
+}
+.item-question__head i, .dropdown-card__head i {
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+}
+.item-question__head {
+	padding: 13px 0;
+	color: #000;
+}
+.item-question:last-child, .dropdown-card:last-child,
+.item-question, .dropdown-card {
+	border-color: #ccc;
+}
+.item-question__content {
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 25px;
+}
+.item-form {
+	margin-bottom: 17px;
+}
+.title-form {
+	margin-bottom: 23px;
+}
+.questions .tabs_main {
+	margin-left: -8px;
+	justify-content: flex-start;
+}
+.descr-head {
+	padding-bottom: 29px;
+	font-weight: 500;
+	max-width: 1095px;
+}
+.head-page_catalog .title-section {
+	padding-bottom: 25px;
+	max-width: 1072px;
+}
+.checkbox_catalog {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 20px;
+	font-weight: 500;
+	color: #444444;
+}
+.checkbox_catalog label span {
+	padding-left: 36px;
+	min-height: 24px;
+	padding-top: 3px;
+	display: flex;
+	align-items: center;
+}
+.checkbox_catalog label span:before {
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	border-color: #fff;
+	border: 1px solid #D9D9D9;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+}
+.checkbox_catalog label span:after {
+	font-size: 13px;
+	width: 24px;
+	height: 24px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	color: #2E4DA0;
+}
+.checkbox_catalog label span img {
+	margin-right: 7px;
+}
+.checkboxes-wrap {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.checkboxes-wrap .checkbox_catalog {
+	width: 25%;
+}
+.catalog-machines {
+	padding-bottom: 60px;
+	background: #F2F4F8;
+}
+.title-catalog {
+	font-size: 36px;
+	line-height: 50px;
+	padding-top: 30px;
+	padding-bottom: 8px;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+}
+.title-catalog sup {
+	font-size: 15px;
+	line-height: 0;
+}
+.descr-catalog {
+	font-size: 18px;
+	line-height: 25px;
+	padding-bottom: 27px;
+	color: #000;
+	font-weight: 500;
+	text-align: center;
+}
+.item-catalog__features {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.feature-catalog {
+	flex: 1;
+}
+.item-catalog__buttons {
+	padding-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.item-catalog__buttons .btn-main {
+	font-size: 12px;
+	line-height: 17px;
+	padding: 0 14px;
+	height: 34px;
+}
+.item-catalog__content {
+	padding: 20px;
+	padding-bottom: 23px;
+}
+.item-catalog__area {
+	font-size: 12px;
+	line-height: 17px;
+	color: #000;
+}
+.item-catalog__area sup {
+	font-size: 6px;
+	line-height: 0;
+}
+.item-catalog_page .item-catalog__title {
+	font-size: 15px;
+	line-height: 21px;
+	padding-bottom: 12px;
+	margin-bottom: 23px;
+}
+.item-catalog_page .price-main {
+	font-size: 18px;
+	line-height: 25px;
+}
+.item-catalog_page .link-main {
+	font-size: 12px;
+	line-height: 17px;
+}
+.slider-three .slick-track,
+.slider-five .slick-track {
+	display: flex !important;
+}
+.slider-three .slick-slide,
+.slider-five .slick-slide {
+	padding: 0 15px;
+	height: inherit !important;
+}
+.slider-five {
+	margin: 0 -15px;
+}
+.item-catalog_page .item-catalog__image {
+	height: 210px;
+}
+.slider-three {
+	max-width: 850px;
+	margin: 0 auto;
+}
+.questions-catalog {
+	padding: 37px 0;
+}
+.catalog-aroma {
+	padding-top: 32px;
+	padding-bottom: 120px;
+	background: #F2F4F8;
+}
+.title-catalog_aroma {
+	margin-bottom: 23px;
+	display: flex;
+	align-items: center;
+}
+.title-catalog_aroma img {
+	margin-right: 17px;
+}
+.catalog-aroma .item-form {
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.tester.tester_page .image-conusult {
+	margin: 0;
+}
+.tester.tester_page .checkbox {
+	margin-top: 45px;
+}
+.card .title-section {
+	color: #000;
+}
+.features-card {
+	padding: 33px 40px;
+	background-color: #DDE7FF;
+}
+.card-feature__value {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	padding: 4px 8px;
+	background: rgba(255, 255, 255, 0.55303);
+	border: 1px solid #6190E8;
+	border-radius: 4px;
+	margin: 0;
+	margin-right: 14px;
+}
+.card-feature p {
+	margin: 0;
+}
+.card-feature {
+	margin-bottom: 32px;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 0;
+}
+.card-feature__line {
+	margin-bottom: 7px;
+	display: flex;
+	align-items: center;
+}
+.price-card {
+	font-size: 20px;
+	line-height: 28px;
+}
+.card-feature__descr {
+	margin: 0;
+	margin-left: 19px;
+}
+.features-card__bottom {
+	text-align: center;
+}
+.features-card__bottom .btn-main_simple {
+	font-size: 16px;
+}
+.text-card {
+	border: none;
+}
+.card-catalog__image::after {
+	display: none;
+}
+.card-catalog__link {
+	margin-right: -65px;
+	top: 51px;
+}
+.feature-simple {
+	font-size: 14px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+}
+.feature-simple strong {
+	width: 210px;
+	font-weight: 500;
+}
+.feature-simple sup {
+	font-size: 9px;
+	line-height: 0;
+}
+.feature-simple.feature-simple_bottom strong {
+	width: auto;
+}
+.card_machine .title-section {
+	padding-bottom: 16px;
+}
+.price-big {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 500;
+	color: #000;
+}
+.price-big span {
+	font-size: 20px;
+}
+.card .price-big {
+	margin-top: 53px;
+	margin-bottom: 19px;
+}
+.slider-card {
+	background-color: #fff;
+}
+.slider-card__item {
+	height: 396px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider-card__item img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.slider-card .slick-dots {
+	bottom: -29px;
+}
+.slider-card .slick-prev {
+	left: 0;
+}
+.slider-card .slick-next {
+	right: 0;
+}
+.card__info .title-min {
+	padding-top: 11px;
+	margin-bottom: 8px;
+	margin-top: 13px;
+	border-top: 1px solid #DDE7FF;
+	color: #000;
+}
+.card__info .title-min:first-of-type {
+	border: none;
+	padding-top: 0;
+}
+.card_machine .card-catalog {
+	padding-top: 30px;
+	padding-right: 0;
+}
+.card_machine .card-catalog__link {
+	left: 0;
+	top: -20px;
+	margin: 0;
+	right: auto;
+}
+.card__info {
+	font-size: 14px;
+	line-height: 22px;
+}
+.row_card-middle {
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
