@@ -3201,6 +3201,10 @@
     .price-big span {
     font-size: 17px;
 }
+.consultation-main .checkbox {
+    display: flex;
+    justify-content: center;
+}
 }
 
 /* Small Devices, Tablets */

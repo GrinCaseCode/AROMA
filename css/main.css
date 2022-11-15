@@ -4787,3 +4787,14 @@ toggle {  0% {
 	margin-top: 15px;
 	margin-bottom: 40px;
 }
+.icon-check {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon-check img {
+	max-width: 100%;
+	max-height: 100%;
+}
