@@ -3475,6 +3475,7 @@ toggle {  0% {
 .fixing-block__image {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .item-fixing {
 	font-size: 24px;
