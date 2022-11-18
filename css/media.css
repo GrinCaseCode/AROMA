@@ -3821,10 +3821,10 @@
 		padding-top: 18px;
 	}
 	.slick-prev {
-		left: -15px;
+		left: -10px;
 	}
 	.slick-next {
-		right: -15px;
+		right: -10px;
 	}
 	.value-review span {
 		font-size: 24px;
