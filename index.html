@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/media.css?ver=1.18" />
 </head>
 <body>
- 
+
 	<div class="wrapper">
 
 		<div class="fixed-button">
@@ -298,6 +298,23 @@
 							<li>Расскажет о неочевидных тонкостях в подборе аромата и оборудования</li>
 							<li>Подберёт и отправит вам бесплатные образцы ароматов для ознакомления</li>
 						</ul>
+						<div class="office-mobile">
+							<div class="office-mobile__image">
+								<img src="img/office_mob.jpg" alt="alt">
+								<div class="item-office item-office_1">
+									<div class="item-office__dot"></div>
+									<div class="item-office__content"><span>Степан</span> наш талисман</div>
+								</div>
+								<div class="item-office item-office_2">
+									<div class="item-office__dot"></div>
+									<div class="item-office__content"><span>Пётр</span> наш клиент</div>
+								</div>
+								<div class="item-office item-office_3">
+									<div class="item-office__dot"></div>
+									<div class="item-office__content"><span>Анастасия</span> аромадизайнер</div>
+								</div>
+							</div>
+						</div>
 						<div class="consultation-section__form">
 							<div class="title-min">Заполните форму и мы свяжемся с вами</div>
 							<form>
@@ -744,7 +761,8 @@
 				<div class="head-section">
 					<h2 class="title-section">Как подобрать аромат для бизнеса</h2>
 				</div>
-				<ul class="tabs">
+				<div class="btn-tab"></div>
+				<ul class="tabs tabs_dropdown">
 					<li class="active"><a href="#tab_catalog1">аппетитные ароматы</a></li>
 					<li><a href="#tab_catalog2">интерьерные ароматы</a></li>
 					<li><a href="#tab_catalog3">цветочные и древесные ароматы</a></li>
@@ -754,7 +772,7 @@
 				<div class="tab-container">
 					<div class="tab-pane" id="tab_catalog1">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-order-mobile">
 								<div class="catalog-head">
 									<div class="catalog-head__icon">
 										<img src="img/catalog_icon1.svg" alt="alt">
@@ -768,13 +786,18 @@
 									<p>Соблазнительные ароматы кулинарных шедевров, распространяемые на улицу у входа разжигают аппетит у посетителей, проходящих неподалеку. Дорогие и элитные рестораны, напротив, стараются избавиться от запахов кухни любыми возможными способами, применяя ароматизаторы с нейтрализацией запаха.</p>
 									<br>
 									<div class="title-text">Рекомендации по выбору ароматов:</div>
-									<p><strong>Рестораны:</strong> кофе, свежая выпечка, можжевельник, манго, кокосовый ликер, шоколад, спелая груша, ароматы десертов, земляника</p>
-									<p><strong>Кафе, фаст-фуды:</strong> зеленое яблоко, кофе банан, капучино, капучино-амаретто, капучино-ваниль, корица с печеньем, арахис, экзотические фрукты, печенье, грейпфрут, зеленый чай, зеленое яблоко, лесные ягоды, карибский ром, вишня, киви, кокос, кокосовое молоко, лакрица, пряники, лимон, лимон и мандарин, липовый цвет, мандарин, миндаль, маракуйя, дыня, апельсин-виноград, апельсиновый сок, перечная мята, персик, клубника, клубника со сливками, ваниль, ваниль-апельсин, вербена, лес, арбуз, вино, корица</p>
-									<p><strong>Где применяются:</strong> <br>Рестораны, кафе, фуд-корты, фаст-фуды, столовые, булочные, пекарни, кондитерские</p>
+									<div class="text-more-catalog">
+										<p><strong>Рестораны:</strong> кофе, свежая выпечка, можжевельник, манго, кокосовый ликер, шоколад, спелая груша, ароматы десертов, земляника</p>
+										<p><strong>Кафе, фаст-фуды:</strong> зеленое яблоко, кофе банан, капучино, капучино-амаретто, капучино-ваниль, корица с печеньем, арахис, экзотические фрукты, печенье, грейпфрут, зеленый чай, зеленое яблоко, лесные ягоды, карибский ром, вишня, киви, кокос, кокосовое молоко, лакрица, пряники, лимон, лимон и мандарин, липовый цвет, мандарин, миндаль, маракуйя, дыня, апельсин-виноград, апельсиновый сок, перечная мята, персик, клубника, клубника со сливками, ваниль, ваниль-апельсин, вербена, лес, арбуз, вино, корица</p>
+										<p><strong>Где применяются:</strong> <br>Рестораны, кафе, фуд-корты, фаст-фуды, столовые, булочные, пекарни, кондитерские</p>
+									</div>
+									<div class="button-more-catalog show-mob">
+										<a href="#" class="link-main">развернуть</a>
+									</div>
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="row row_catalog">
+								<div class="row row_catalog row_catalog-slider">
 									<div class="col-xl-4 col-6">
 										<div class="item-catalog item-catalog_min">
 											<a href="#" class="item-catalog__image">
@@ -865,13 +888,16 @@
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="bottom-button show-mob">
+									<a href="#" class="link-main">Перейти в каталог ароматов</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab_catalog2">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-order-mobile">
 								<div class="catalog-head">
 									<div class="catalog-head__icon">
 										<img src="img/catalog_icon1.svg" alt="alt">
@@ -885,13 +911,18 @@
 									<p>Соблазнительные ароматы кулинарных шедевров, распространяемые на улицу у входа разжигают аппетит у посетителей, проходящих неподалеку. Дорогие и элитные рестораны, напротив, стараются избавиться от запахов кухни любыми возможными способами, применяя ароматизаторы с нейтрализацией запаха.</p>
 									<br>
 									<div class="title-text">Рекомендации по выбору ароматов:</div>
-									<p><strong>Рестораны:</strong> кофе, свежая выпечка, можжевельник, манго, кокосовый ликер, шоколад, спелая груша, ароматы десертов, земляника</p>
-									<p><strong>Кафе, фаст-фуды:</strong> зеленое яблоко, кофе банан, капучино, капучино-амаретто, капучино-ваниль, корица с печеньем, арахис, экзотические фрукты, печенье, грейпфрут, зеленый чай, зеленое яблоко, лесные ягоды, карибский ром, вишня, киви, кокос, кокосовое молоко, лакрица, пряники, лимон, лимон и мандарин, липовый цвет, мандарин, миндаль, маракуйя, дыня, апельсин-виноград, апельсиновый сок, перечная мята, персик, клубника, клубника со сливками, ваниль, ваниль-апельсин, вербена, лес, арбуз, вино, корица</p>
-									<p><strong>Где применяются:</strong> <br>Рестораны, кафе, фуд-корты, фаст-фуды, столовые, булочные, пекарни, кондитерские</p>
+									<div class="text-more-catalog">
+										<p><strong>Рестораны:</strong> кофе, свежая выпечка, можжевельник, манго, кокосовый ликер, шоколад, спелая груша, ароматы десертов, земляника</p>
+										<p><strong>Кафе, фаст-фуды:</strong> зеленое яблоко, кофе банан, капучино, капучино-амаретто, капучино-ваниль, корица с печеньем, арахис, экзотические фрукты, печенье, грейпфрут, зеленый чай, зеленое яблоко, лесные ягоды, карибский ром, вишня, киви, кокос, кокосовое молоко, лакрица, пряники, лимон, лимон и мандарин, липовый цвет, мандарин, миндаль, маракуйя, дыня, апельсин-виноград, апельсиновый сок, перечная мята, персик, клубника, клубника со сливками, ваниль, ваниль-апельсин, вербена, лес, арбуз, вино, корица</p>
+										<p><strong>Где применяются:</strong> <br>Рестораны, кафе, фуд-корты, фаст-фуды, столовые, булочные, пекарни, кондитерские</p>
+									</div>
+									<div class="button-more-catalog">
+										<a href="#" class="link-main">развернуть</a>
+									</div>
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="row row_catalog">
+								<div class="row row_catalog row_catalog-slider">
 									<div class="col-xl-4 col-6">
 										<div class="item-catalog item-catalog_min">
 											<a href="#" class="item-catalog__image">
@@ -982,13 +1013,16 @@
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="bottom-button show-mob">
+									<a href="#" class="link-main">Перейти в каталог ароматов</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab_catalog3">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-order-mobile">
 								<div class="catalog-head">
 									<div class="catalog-head__icon">
 										<img src="img/catalog_icon1.svg" alt="alt">
@@ -1008,7 +1042,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="row row_catalog">
+								<div class="row row_catalog row_catalog-slider">
 									<div class="col-xl-4 col-6">
 										<div class="item-catalog item-catalog_min">
 											<a href="#" class="item-catalog__image">
@@ -1099,13 +1133,16 @@
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="bottom-button show-mob">
+									<a href="#" class="link-main">Перейти в каталог ароматов</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab_catalog4">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-order-mobile">
 								<div class="catalog-head">
 									<div class="catalog-head__icon">
 										<img src="img/catalog_icon1.svg" alt="alt">
@@ -1125,7 +1162,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="row row_catalog">
+								<div class="row row_catalog row_catalog-slider">
 									<div class="col-xl-4 col-6">
 										<div class="item-catalog item-catalog_min">
 											<a href="#" class="item-catalog__image">
@@ -1216,13 +1253,16 @@
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="bottom-button show-mob">
+									<a href="#" class="link-main">Перейти в каталог ароматов</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab_catalog5">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-order-mobile">
 								<div class="catalog-head">
 									<div class="catalog-head__icon">
 										<img src="img/catalog_icon1.svg" alt="alt">
@@ -1242,7 +1282,7 @@
 								</div>
 							</div>
 							<div class="col-lg-6">
-								<div class="row row_catalog">
+								<div class="row row_catalog row_catalog-slider">
 									<div class="col-xl-4 col-6">
 										<div class="item-catalog item-catalog_min">
 											<a href="#" class="item-catalog__image">
@@ -1334,11 +1374,14 @@
 										</div>
 									</div>
 								</div>
+								<div class="bottom-button show-mob">
+									<a href="#" class="link-main">Перейти в каталог ароматов</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="bottom-button">
+				<div class="bottom-button hidden-mob">
 					<a href="#" class="link-main">Перейти в каталог ароматов</a>
 				</div>
 			</div>
@@ -1454,7 +1497,7 @@
 					<div class="item-fixing item-fixing_7">
 						<div class="item-fixing__title">Гарь</div>
 						<div class="item-fixing__icon">
-							<img src="img/ic_fixing8.svg" alt="alt">
+							<img src="img/ic_fixing7.svg" alt="alt">
 						</div>
 					</div>
 					<div class="item-fixing item-fixing_8">
@@ -1472,6 +1515,10 @@
 				<h2 class="title-section">Способы ароматизации помещений</h2>
 				<ul class="slider-methods">
 					<li>
+						<div class="buttons-methods">
+							<div class="btn-method"><i class="far fa-chevron-left"></i>диффузоры</div>
+							<div class="btn-method">арома-машины <i class="far fa-chevron-right"></i></div>
+						</div>
 						<div class="item-method">
 							<div class="item-method__top">
 								<div class="item-method__name">Не используется в аромамаркетинге</div>
@@ -1492,6 +1539,10 @@
 						</div>
 					</li>
 					<li>
+						<div class="buttons-methods">
+							<div class="btn-method"><i class="far fa-chevron-left"></i>аэрозоли</div>
+							<div class="btn-method">диффузоры <i class="far fa-chevron-right"></i></div>
+						</div>
 						<div class="item-method item-method_premium">
 							<div class="item-method__top">
 								<div class="item-method__name"><img src="img/ic_crown.svg" alt="alt">Наш способ</div>
@@ -1512,6 +1563,10 @@
 						</div>
 					</li>
 					<li>
+						<div class="buttons-methods">
+							<div class="btn-method"><i class="far fa-chevron-left"></i>арома-машины</div>
+							<div class="btn-method">аэрозоли <i class="far fa-chevron-right"></i></div>
+						</div>
 						<div class="item-method">
 							<div class="item-method__title">ротанговые диффузоры</div>
 							<ul class="item-method__list">
@@ -1550,36 +1605,37 @@
 									<div class="technical-image">
 										<img src="img/technical1.jpg" alt="alt">
 										<div class="item-technical item-technical_1">
-											<div class="item-technical__content"><strong>Канал вывода ароматизированного воздуха</strong></div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Канал вывода ароматизированного воздуха</strong></div>
+											
 										</div>
 										<div class="item-technical item-technical_2">
-											<div class="item-technical__content"><strong>Атомайзер</strong> Расщепляет ароматическую жидкость до микроскопических частиц, размером в 50-100 раз мельче капли аэрозоли</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Атомайзер</strong> Расщепляет ароматическую жидкость до микроскопических частиц, размером в 50-100 раз мельче капли аэрозоли</div>
 										</div>
 										<div class="item-technical item-technical_3">
-											<div class="item-technical__content"><strong>Емкость для арома-жидкости</strong> Запас для ароматической жидкости на 1-6 месяцев ежедневной работы</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Емкость для арома-жидкости</strong> Запас для ароматической жидкости на 1-6 месяцев ежедневной работы</div>
 										</div>
 										<div class="item-technical item-technical_4">
-											<div class="item-technical__content"><strong>Удобная ручка для переноски</strong></div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Удобная ручка для переноски</strong></div>
 										</div>
 										<div class="item-technical item-technical_5">
-											<div class="item-technical__content"><strong>Встроенный вентилятор</strong> Быстро и равномерно распределяет аромат даже по самому большому помещению</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Встроенный вентилятор</strong> Быстро и равномерно распределяет аромат даже по самому большому помещению</div>
 										</div>
 										<div class="item-technical item-technical_6">
-											<div class="item-technical__content"><strong>Встроенный вентилятор</strong> Быстро и равномерно распределяет аромат даже по самому большому помещению</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Встроенный вентилятор</strong> Быстро и равномерно распределяет аромат даже по самому большому помещению</div>
 										</div>
 										<div class="item-technical item-technical_7">
-											<div class="item-technical__content"><strong>Фильтр для очистки воздуха</strong> Производит первичную очистку поступающего в аппарат воздуха</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Фильтр для очистки воздуха</strong> Производит первичную очистку поступающего в аппарат воздуха</div>
 										</div>
 										<div class="item-technical item-technical_8">
-											<div class="item-technical__content"><strong>Воздушный насос</strong> Нагнетает очищенный воздух в атомайзер.</div>
 											<div class="dot-technical"></div>
+											<div class="item-technical__content"><strong>Воздушный насос</strong> Нагнетает очищенный воздух в атомайзер.</div>
 										</div>
 									</div>
 								</div>
@@ -1596,8 +1652,8 @@
 											<p>- Интенсивный воздухообмен (сильные сквозняки, вытяжка)</p>
 											<p>- Зональная ароматизация одним или несколькими ароматами</p>
 										</div>
-										<div class="row row_cats">
-											<div class="col-xl-6">
+										<div class="row row_cats hidden-mob">
+											<div class="col-6">
 												<div class="item-catalog">
 													<a href="#" class="item-catalog__image">
 														<img src="img/catalog2_1.jpg" alt="alt">
@@ -1616,7 +1672,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-xl-6">
+											<div class="col-6">
 												<div class="item-catalog">
 													<a href="#" class="item-catalog__image">
 														<img src="img/catalog2_2.jpg" alt="alt">
@@ -1665,6 +1721,46 @@
 										<div class="result-calculator">
 											<div class="result-calculator__title">Ваш ароматизируемый объем</div>
 											<div class="result-calculator__value">120 м<sup>3</sup></div>
+										</div>
+									</div>
+									<div class="row row_cats show-mob">
+										<div class="col-6">
+											<div class="item-catalog">
+												<a href="#" class="item-catalog__image">
+													<img src="img/catalog2_1.jpg" alt="alt">
+												</a>
+												<div class="item-catalog__content">
+													<a href="#" class="item-catalog__title item-catalog__title_main">Арома-машина S-50</a>
+													<div class="item-catalog__text">
+														<p><strong>Охват:</strong> от 5 до 20 м2</p>
+														<p><strong>Управление:</strong> полностью автономное, программируемое</p>
+														<p><strong>Габариты:</strong> 14,4х6,9х18,2 см</p>
+													</div>
+													<div class="item-catalog__bottom">
+														<div class="price-main"><span>10 200 Р</span></div>
+														<a href="#" class="link-main">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="item-catalog">
+												<a href="#" class="item-catalog__image">
+													<img src="img/catalog2_2.jpg" alt="alt">
+												</a>
+												<div class="item-catalog__content">
+													<a href="#" class="item-catalog__title item-catalog__title_main">Арома-машина S-50 plus</a>
+													<div class="item-catalog__text">
+														<p><strong>Охват:</strong> от 5 до 20 м2</p>
+														<p><strong>Управление:</strong> полностью автономное, программируемое</p>
+														<p><strong>Габариты:</strong> 14,4х6,9х18,2 см</p>
+													</div>
+													<div class="item-catalog__bottom">
+														<div class="price-main"><span>14 100 Р</span></div>
+														<a href="#" class="link-main">заказать</a>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1959,7 +2055,9 @@
 				<div class="row">
 					<div class="col-lg-7">
 						<h2 class="title-section">Немного о нас</h2>
-						<div class="text-big"><strong>Наша миссия:</strong> донести, что аромамаркетинг поможет любому бизнесу в России, где есть живой контакт с клиентом</div>
+						<div class="company__top-info">
+							<div class="text-big"><strong>Наша миссия:</strong> донести, что аромамаркетинг поможет любому бизнесу в России, где есть живой контакт с клиентом</div>
+						</div>
 						<div class="card-person">
 							<div class="card-person__image">
 								<img src="img/director.jpg" alt="alt">
@@ -1990,7 +2088,7 @@
 								</a>
 							</li>
 						</ul>
-						<div class="buttons-team">
+						<div class="buttons-team hidden-mob">
 							<a href="#" class="btn-main btn-main_page">связаться с руководством</a>
 							<a href="#" class="btn-main">актуальные вакансии</a>
 						</div>
@@ -1998,6 +2096,15 @@
 				</div>
 				<div class="descr-big">Наша команда</div>
 				<ul class="slider-team">
+					<li class="show-mob">
+						<div class="unit-team">
+							<div class="image-team">
+								<img src="img/director.jpg" alt="alt">
+							</div>
+							<div class="unit-team__name">Нестерук Александр</div>
+							<div class="unit-team__descr">Директор</div>
+						</div>
+					</li>
 					<li>
 						<div class="unit-team">
 							<div class="image-team">
@@ -2091,6 +2198,10 @@
 				</ul>
 				<div class="bottom-button">
 					<a href="#" class="link-main">Познакомиться со всей командой</a>
+				</div>
+				<div class="buttons-team show-mob">
+					<a href="#" class="btn-main btn-main_page">связаться с руководством</a>
+					<a href="#" class="btn-main">актуальные вакансии</a>
 				</div>
 			</div>
 		</section>
@@ -2300,7 +2411,7 @@
 						</div>
 						<div class="col-lg-5">
 							<div class="process-safety__sertificats">
-								<div class="row">
+								<div class="row row_serts">
 									<div class="col-4">
 										<a href="img/sertificat1.jpg" class="image-sertificat fancybox">
 											<img src="img/sertificat1.jpg" alt="alt">
@@ -2355,6 +2466,9 @@
 						</form>
 					</div>
 				</div>
+			</div>
+			<div class="consultation-main__mobile">
+				<img src="img/consult-main_mob.png" alt="alt">
 			</div>
 		</section>
 
