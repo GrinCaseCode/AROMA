@@ -3377,6 +3377,7 @@
 		visibility: hidden;
 		transition: all 0.3s;
 	}
+	.item-office:active .item-office__content,
 	.item-office:hover .item-office__content {
 		opacity: 1;
 		visibility: visible;
@@ -3761,11 +3762,13 @@
 		transform: scale(0.9);
 		margin-bottom: -15px;
 	}
+	.item-technical:active .item-technical__content,
 	.item-technical:hover .item-technical__content {
 		opacity: 1;
 		visibility: visible;
 		z-index: 2;
 	}
+	.item-technical:active .dot-technical,
 	.item-technical:hover .dot-technical {
 		z-index: 3;
 	}
@@ -3999,6 +4002,7 @@
 	.process .tabs li:not(.active) a {
 		background: #DDE7FF;
 	}
+	.process .tabs li:not(.active) a:active,
 	.process .tabs li:not(.active) a:hover {
 		    background-color: #2E4DA0;
 	}
