@@ -4096,53 +4096,56 @@
 		margin-top: 25px;
 	}
 	.result-calculator__title {
-    margin-bottom: 12px;
-}
-.result-calculator__value {
-    font-size: 24px;
-    line-height: 33px;
-    }
-    .result-calculator__value sup {
-    font-size: 11px;
-}
-.result-calculator {
-	padding: 18px;
-	margin-top: 12px;
-}
-.row_cats {
-	margin: 0 -4px;
-}
-.row_cats > div {
-	padding: 0 4px;
-}
-.row_cats .item-catalog__title {
-    font-size: 13px;
-    line-height: 18px;
-    padding-bottom: 7px;
-    margin-bottom: 9px;
-    min-height: 44px;
-    display: flex;
-    align-items: center;
-}
-.row_cats .item-catalog {
-    font-size: 10px;
-    line-height: 14px;
-}
-.row_cats .item-catalog__image {
-	height: 125px;
-}
-.row_cats .item-catalog__bottom {
-	padding-top: 11px;
-	display: flex;
-}
-.row_cats .item-catalog .price-main span {
-	font-size: 13px;
-	line-height: 18px;
-}
-.row_cats .item-catalog  .link-main {
-    font-size: 12px;
-    line-height: 16px;
-}
+		margin-bottom: 12px;
+	}
+	.result-calculator__value {
+		font-size: 24px;
+		line-height: 33px;
+	}
+	.result-calculator__value sup {
+		font-size: 11px;
+	}
+	.result-calculator {
+		padding: 18px;
+		margin-top: 12px;
+	}
+	.row_cats {
+		margin: 0 -4px;
+	}
+	.row_cats > div {
+		padding: 0 4px;
+	}
+	.row_cats .item-catalog__title {
+		font-size: 13px;
+		line-height: 18px;
+		padding-bottom: 7px;
+		margin-bottom: 9px;
+		min-height: 44px;
+		display: flex;
+		align-items: center;
+	}
+	.row_cats .item-catalog {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.row_cats .item-catalog__image {
+		height: 125px;
+	}
+	.row_cats .item-catalog__bottom {
+		padding-top: 11px;
+		display: flex;
+	}
+	.row_cats .item-catalog .price-main span {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.row_cats .item-catalog  .link-main {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.header.active {
+		background-color: #fff;
+	}
 }
 
 /* Small Devices, Tablets */
