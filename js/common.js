@@ -2,6 +2,17 @@ $(document).ready(function() {
 
 	/*new design*/
 
+	$('.slider-images').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
 	$('.slider-card').slick({
 		arrows: true,
 		dots: true,
@@ -18,7 +29,7 @@ $(document).ready(function() {
 		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
-		slidesToShow: 5,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
@@ -227,7 +238,7 @@ $(document).ready(function() {
 		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
-		slidesToShow: 10,
+		slidesToShow: 9,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
@@ -286,6 +297,13 @@ $(document).ready(function() {
 		]
 	});
 
+
+$(window).resize(function () {
+    if ($(window).width() < 992) {
+      $('.row_serts').slick('refresh');
+       $('.row_catalog-slider').slick('refresh');
+    }
+  })
 
 
 	$('.btn-tab').click(function(event) {
