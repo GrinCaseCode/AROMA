@@ -4221,6 +4221,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+		.consultation-main__mobile,
+	.buttons-methods,
 	.menu-mobile,
 	.footer__title i,
 	.mobile-tester-left,
