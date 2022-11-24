@@ -577,7 +577,22 @@
 	.image-billbord {
 		margin-top: -130px;
 	}
-
+	.calculation__image img {
+		max-width: 100px;
+	}
+	.calculation__image {
+    top: 0px;
+    right: 0px;
+}
+.calculation .title-section {
+    max-width: 249px;
+    }
+    .slider-images {
+    	margin-right: 0;
+    }
+    .slider-images__item {
+    height: 358px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -874,7 +889,7 @@
 		padding-left: 25px;
 	}
 	.hidden-mob {
-		display: none;
+		display: none !important;
 	}
 	.services-buttons .link-main {
 		margin-top: 23px;
@@ -3192,12 +3207,76 @@
 	.title-calculation {
 		text-align: center;
 	}
+	.calculation .title-section {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.calculation__image {
+		display: none;
+	}
+	.cases .title-section::before {
+		display: none;
+	}
+	.cases .title-section {
+		padding-left: 0;
+	}
+	.about-top {
+    padding-bottom: 11px;
+}
+.slider-images {
+margin: 0 -15px;
+}
+.slider-images .slick-prev {
+    left: 0px;
+}
+.slider-images .slick-next {
+    right: 0px;
+}
+.slider-images__item {
+    height: 445px;
+}
+.descr-main {
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 16px;
+}
+.about-top .title-section {
+    padding-bottom: 15px;
+}
+.slider-images__item {
+	height: auto;
+}
+.slider-images__item img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	    font-family: inherit;
+}
+.item-about {
+	max-width: 100%;
+}
+.title-about {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 18px;
+    text-align: center;
+    }
+    .item-team {
+    	padding: 10px;
+    }
+    .item-team__image {
+    	margin-bottom: 12px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.item-team__image {
 		height: 355px;
+	}
+	.item-team {
+		max-width: 370px;
+		margin: 0 auto;
 	}
 }
 
@@ -3229,6 +3308,23 @@
 		top: 0px;
 		right: 0px;
 	}
+	.descr-main {
+    font-size: 14px;
+    line-height: 21px;
+}
+.about-team {
+    padding-top: 25px;
+    }
+    .item-about_title {
+    font-size: 25px;
+    line-height: 30px;
+}
+.item-about {
+	margin-bottom: 15px;
+}
+.item-team__image {
+    height: 310px;
+}
 }
 
 /* Custom, iPhone Retina */
