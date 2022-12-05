@@ -4931,8 +4931,8 @@ toggle {  0% {
 	margin-bottom: 0;
 }
 .item-about_title {
-    font-size: 28px;
-    line-height: 34px;
+	font-size: 28px;
+	line-height: 34px;
 	margin-bottom: 10px;
 	font-weight: 700;
 	color: #88ABED;
@@ -6100,8 +6100,8 @@ body {
 	padding-bottom: 35px;
 }
 .item-team {
-	    font-size: 12px;
-    line-height: 17px;
+	font-size: 12px;
+	line-height: 17px;
 	padding: 10px;
 	padding-bottom: 18px;
 }
@@ -6132,3 +6132,209 @@ body {
 .row_top-team {
 	padding-bottom: 20px;
 }
+
+.billbord-presents {
+	padding-top:80px;
+	min-height: 630px;
+	color: #000;
+	background-image: url(../img/billbord_presents.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.billbord-presents__title {
+    font-size: 34px;
+    line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.billbord-presents__title span {
+	color: #2D4EA0;
+	display: block;
+}
+.billbord-presents__descr {
+    font-size: 28px;
+    line-height: 39px;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+.billbord-presents .list-simple li {
+	font-size: 25px;
+	line-height: 43px;
+	margin: 0;
+	font-weight: 500;
+}
+.billbord-presents .list-simple  {
+	margin-bottom: 60px;
+}
+.billbord-presents .btn-main {
+	height: 65px;
+	padding: 0 40px;
+}
+.present-content {
+	padding: 50px 50px;
+	padding-right: 210px;
+	min-height: 430px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: rgba(184, 203, 252, 0.3);
+	border-radius: 25px;
+}
+.present-content__title {
+	font-size: 30px;
+	line-height: 41px;
+	margin-bottom: 18px;
+	font-weight: 700;
+	color: #2E4DA0;
+}
+.present-content .btn-main {
+	margin-top: auto;
+}
+.image-present {
+	margin-left: -210px;
+	height: 330px;
+	border-radius: 40px;
+	box-shadow: 0px 10px 15px rgba(62, 108, 194, 0.15);
+}
+.image-present img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	border-radius: 40px;
+}
+.present-block {
+	margin-bottom: 43px;
+}
+.presents-page {
+	padding-top: 66px;
+}
+.present-content li {
+	padding-left: 15px;
+	position: relative;
+}
+.present-content li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "•";
+}
+.present-block:nth-child(even) .row {
+	flex-direction: row-reverse;
+}
+.present-block:nth-child(even) .image-present {
+	margin-left: 0;
+	margin-right: -210px;
+}
+.present-block:nth-child(even) .present-content {
+	padding-left: 210px;
+	padding-right: 50px;
+}
+.discounts-presents {
+	padding-top: 37px;
+	padding-bottom: 55px;
+	background: #B8CBFC;
+	color: #000;
+}
+.discounts-presents .title-section {
+	text-align: center;
+}
+.item-discount {
+	padding: 15px 10px;
+	padding-bottom: 40px;
+	min-height: 100%;
+	background: #FFFFFF;
+	text-align: center;
+	box-shadow: 0px 10px 15px rgba(62, 108, 194, 0.15);
+	border-radius: 27px;
+}
+.item-discount__icon {
+	width: 66px;
+	height: 66px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 22px;
+}
+.item-discount__icon img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.item-discount__title {
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 19px;
+	font-weight: 500;
+}
+.item-discount__value {
+	font-size: 55px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #2E4E9F;
+}
+.row_discounts > div {
+	margin-top: 35px;
+}
+.bottom-presents__left {
+	font-size: 18px;
+	line-height: 28px;
+}
+.bottom-presents__left span {
+	font-weight: 500;
+	display: block;
+}
+.bottom-presents {
+	padding-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.descr-tester {
+	max-width: 500px;
+	margin-bottom: 25px;
+	font-weight: 500;
+}
+.tester_presents .title-section {
+	margin-bottom: 12px;
+}
+.tester_presents .image-conusult img {
+	max-width: 700px;
+}
+.tester_presents .image-conusult {
+	top: -43px;
+	right: 112px;
+	transform: rotate(15.44deg);
+}
+.tester_presents .image-front-conusult img {
+	max-width: 350px;
+}
+.tester_presents .image-front-conusult {
+	top: 261px;
+	margin-right: -50px;
+}
+.tester_presents .list-page {
+	max-width: 460px;
+	padding-bottom: 10px;
+}
+.tester_presents .video-btn {
+	width: 100px;
+	height: 100px;
+	    right: 189px;
+    top: 256px;
+}
+.tester_presents .video-btn::before {
+	background-size: 110% 110%;
+}
+.tester_presents .col-lg-5 {
+	    margin-top: 33px;
+}
+.route__image {
+	width: 90px;
+	height: 90px;
+}
+.route {
+    font-size: 16px;
+    line-height: 23px;
+    }
