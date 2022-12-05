@@ -6143,8 +6143,8 @@ body {
 	background-size: cover;
 }
 .billbord-presents__title {
-    font-size: 34px;
-    line-height: 50px;
+	font-size: 34px;
+	line-height: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -6153,8 +6153,8 @@ body {
 	display: block;
 }
 .billbord-presents__descr {
-    font-size: 28px;
-    line-height: 39px;
+	font-size: 28px;
+	line-height: 39px;
 	margin-bottom: 30px;
 	font-weight: 500;
 }
@@ -6323,20 +6323,20 @@ body {
 .tester_presents .video-btn {
 	width: 100px;
 	height: 100px;
-	    right: 189px;
-    top: 256px;
+	right: 189px;
+	top: 256px;
 }
 .tester_presents .video-btn::before {
 	background-size: 110% 110%;
 }
 .tester_presents .col-lg-5 {
-	    margin-top: 33px;
+	margin-top: 33px;
 }
 .route__image {
 	width: 90px;
 	height: 90px;
 }
 .route {
-    font-size: 16px;
-    line-height: 23px;
-    }
+	font-size: 16px;
+	line-height: 23px;
+}
