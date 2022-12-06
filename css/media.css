@@ -3401,6 +3401,10 @@
 	.feature-catalog img {
 		transform: none;
 	}
+	.tester_presents .list-page {
+    font-size: 13px;
+    line-height: 20px;
+}
 }
 
 /* Small Devices, Tablets */
