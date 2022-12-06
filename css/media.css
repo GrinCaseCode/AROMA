@@ -3398,6 +3398,9 @@
 	.tester_presents .col-lg-5 {
 		margin-top: 0;
 	}
+	.feature-catalog img {
+		transform: none;
+	}
 }
 
 /* Small Devices, Tablets */
